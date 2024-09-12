@@ -14,3 +14,4 @@ services:
       - db_data:/var/lib/postgresql/data
 volumes:
   db_data:
+# docker-compose -f local-postgre-docker-compose.yml up -d
