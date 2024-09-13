@@ -12,4 +12,5 @@ import lombok.Setter;
 @Builder
 public class ShortUrlResponse {
   private String key;
+  private String shortUrl;
 }
